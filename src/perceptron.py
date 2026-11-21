@@ -21,3 +21,5 @@ class Perceptron:
                 for i in range(len(self.weights)):
                     self.weights[i] += self.learning_rate * error * inputs[i]
                 self.bias += self.learning_rate * error
+
+# Modelo de perceptron simple para evaluacion crediticia
